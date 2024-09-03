@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains the code and the datasets utilised for the paper "Offensive AI: Enhancing Directory Brute-forcing attack with the use of Language models", presented at the 17th ACM Workshop on Artificial Intelligence and Security (AISec 2024).
 
-##Instruction
+## Instruction
 The folder [datasets][datasets/] contains the datasets used in this work (zipped). You can use the same datasets to reproduce our paper's results.
 The folder contains the dataset in two formats:
 - [combined-dataset](datasets/combined_dataset.zip) is the entire dataset already preprocessed (the filtering of URLs associated with responses with status code has not been made yet).
