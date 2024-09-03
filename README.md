@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains the code and the datasets utilised for the paper "Offensive AI: Enhancing Directory Brute-forcing attack with the use of Language models", presented at the 17th ACM Workshop on Artificial Intelligence and Security (AISec 2024).
 
-## Instruction
+## Instructions
 The folder [datasets][datasets/] contains the datasets used in this work (zipped). You can use the same datasets to reproduce our paper's results.
 The folder contains the dataset in two formats:
 - [combined-dataset](datasets/combined_dataset.zip) is the entire dataset already preprocessed (the filtering of URLs associated with responses with status code has not been made yet).
@@ -14,7 +14,10 @@ To ease the process of reproducing the analysis and the attack simulations perfo
 - [benchmarks.ipynb](benchmarks.ipynb) contains the code to run directory brute-force attack simulations (as described in the paper) using all the different attack methodologies. In addition to that, it is also possible to simulate the attack execution time by setting the supposed time that each request-response interaction takes and the number of available threads.
 - [general_stats_scripts.ipynb](general_stats_scripts.ipynb) contains the code to analyze and generate the statistics and the plots for the datasets features and attack simulation results.
 
-If you have any questions, please e-mail us.
+
+## How to use our code
+
+If you have any questions regarding the dataset or the code, please [send us an email](mailto:alberto.castagnaro@gmail.com).
 
 If you utilize this code, please cite us as follows:
 
