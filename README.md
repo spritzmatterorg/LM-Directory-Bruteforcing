@@ -22,10 +22,21 @@ If you have any questions regarding the dataset or the code, please [send us an 
 If you utilize this code, please cite us as follows:
 
 ```
-@article{castagnaro2024offensive,
-  title={Offensive AI: Enhancing Directory Brute-forcing Attack with the Use of Language Models},
-  author={Castagnaro, Alberto and Conti, Mauro and Pajola, Luca},
-  journal={arXiv preprint arXiv:2404.14138},
-  year={2024}
+@inproceedings{10.1145/3689932.3694770,
+author = {Castagnaro, Alberto and Conti, Mauro and Pajola, Luca},
+title = {Offensive AI: Enhancing Directory Brute-forcing Attack with the Use of Language Models},
+year = {2024},
+isbn = {9798400712289},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3689932.3694770},
+doi = {10.1145/3689932.3694770},
+abstract = {Web Vulnerability Assessment and Penetration Testing (Web VAPT) is a comprehensive cybersecurity process that uncovers a range of vulnerabilities which, if exploited, could compromise the integrity of web applications. In a VAPT, it is common to perform a Directory brute-forcing Attack, aiming at the identification of accessible directories of a target website. Current commercial solutions are inefficient as they are based on brute-forcing strategies that use wordlists, resulting in enormous quantities of trials for a small amount of success.Offensive AI is a recent paradigm that integrates AI-based technologies in cyber attacks. In this work, we explore whether AI can enhance the directory enumeration process and propose a novel Language Model-based framework. Our experiments -- conducted in a testbed consisting of 1 million URLs from different web application domains (universities, hospitals, government, companies) -- demonstrate the superiority of the LM-based attack, with an average performance increase of 969\%.},
+booktitle = {Proceedings of the 2024 Workshop on Artificial Intelligence and Security},
+pages = {184–195},
+numpages = {12},
+keywords = {language model, offensive ai, penetration test, web security},
+location = {Salt Lake City, UT, USA},
+series = {AISec '24}
 }
 ```
